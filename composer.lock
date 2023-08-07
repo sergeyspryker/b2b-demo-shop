@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08b60e6ed6cc3010e815d94518a48b6c",
+    "content-hash": "73993ff60eaf313a68a39ad1fdf29eb7",
     "packages": [
         {
             "name": "async-aws/core",
@@ -28292,16 +28292,16 @@
         },
         {
             "name": "spryker/data-import",
-            "version": "1.20.0",
+            "version": "1.20.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/data-import.git",
-                "reference": "4d1d37d80ea03fe45e4d8e3ddde4087a9e9f47dc"
+                "reference": "d1f879229c8a8341ce2eb3d520c178fb4908dc2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/data-import/zipball/4d1d37d80ea03fe45e4d8e3ddde4087a9e9f47dc",
-                "reference": "4d1d37d80ea03fe45e4d8e3ddde4087a9e9f47dc",
+                "url": "https://api.github.com/repos/spryker/data-import/zipball/d1f879229c8a8341ce2eb3d520c178fb4908dc2c",
+                "reference": "d1f879229c8a8341ce2eb3d520c178fb4908dc2c",
                 "shasum": ""
             },
             "require": {
@@ -28349,9 +28349,9 @@
             ],
             "description": "DataImport module",
             "support": {
-                "source": "https://github.com/spryker/data-import/tree/1.20.0"
+                "source": "https://github.com/spryker/data-import/tree/1.20.1"
             },
-            "time": "2022-12-22T17:59:14+00:00"
+            "time": "2023-02-02T07:43:18+00:00"
         },
         {
             "name": "spryker/data-import-extension",
