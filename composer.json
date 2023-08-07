@@ -202,6 +202,8 @@
         "spryker/flysystem-local-file-system": "^2.0.0",
         "spryker/form": "1.2.0",
         "spryker/gift-card": "1.8.0",
+        "spryker/glue-backend-api-application": "1.1.0",
+        "spryker/glue-storefront-api-application": "1.1.0",
         "spryker/gui-table": "2.0.0",
         "spryker/http": "1.8.0",
         "spryker/install": "1.1.0",
