@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60e0a838877e095b52681dccd9fac1da",
+    "content-hash": "4dfd4b5f205899e1dff26f9026ef6eb8",
     "packages": [
         {
             "name": "async-aws/core",
@@ -36052,16 +36052,16 @@
         },
         {
             "name": "spryker/oauth",
-            "version": "2.8.0",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/oauth.git",
-                "reference": "b8a7535238e1daa0a654282d89bb5b4491cd1b82"
+                "reference": "8d8e74962834767bc3a06ccb9d61a6ed35bfcc96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/oauth/zipball/b8a7535238e1daa0a654282d89bb5b4491cd1b82",
-                "reference": "b8a7535238e1daa0a654282d89bb5b4491cd1b82",
+                "url": "https://api.github.com/repos/spryker/oauth/zipball/8d8e74962834767bc3a06ccb9d61a6ed35bfcc96",
+                "reference": "8d8e74962834767bc3a06ccb9d61a6ed35bfcc96",
                 "shasum": ""
             },
             "require": {
@@ -36108,9 +36108,9 @@
             ],
             "description": "Oauth module",
             "support": {
-                "source": "https://github.com/spryker/oauth/tree/2.8.0"
+                "source": "https://github.com/spryker/oauth/tree/2.9.0"
             },
-            "time": "2023-02-08T18:31:45+00:00"
+            "time": "2023-03-17T10:37:30+00:00"
         },
         {
             "name": "spryker/oauth-agent-connector",
