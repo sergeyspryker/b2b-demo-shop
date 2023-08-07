@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db6b145305369789163cab78a54273ac",
+    "content-hash": "a7b4a37373f82c2d88e959ffc6af493c",
     "packages": [
         {
             "name": "async-aws/core",
@@ -46064,16 +46064,16 @@
         },
         {
             "name": "spryker/products-backend-api",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/products-backend-api.git",
-                "reference": "2ce5a530135f9de6a91ea2f6144b3abf62fc754b"
+                "reference": "d6a1e21286bc1b0a981781f84df673f008a0dd7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/products-backend-api/zipball/2ce5a530135f9de6a91ea2f6144b3abf62fc754b",
-                "reference": "2ce5a530135f9de6a91ea2f6144b3abf62fc754b",
+                "url": "https://api.github.com/repos/spryker/products-backend-api/zipball/d6a1e21286bc1b0a981781f84df673f008a0dd7f",
+                "reference": "d6a1e21286bc1b0a981781f84df673f008a0dd7f",
                 "shasum": ""
             },
             "require": {
@@ -46116,9 +46116,9 @@
             ],
             "description": "ProductsBackendApi module",
             "support": {
-                "source": "https://github.com/spryker/products-backend-api/tree/0.1.0"
+                "source": "https://github.com/spryker/products-backend-api/tree/0.1.1"
             },
-            "time": "2023-02-01T20:05:58+00:00"
+            "time": "2023-02-22T11:10:28+00:00"
         },
         {
             "name": "spryker/products-categories-resource-relationship",
