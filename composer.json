@@ -322,7 +322,7 @@
         "spryker/sales": "11.36.1",
         "spryker/sales-configurable-bundle": "1.5.1",
         "spryker/sales-invoice": "1.2.1",
-        "spryker/sales-merchant-portal-gui": "2.0.0",
+        "spryker/sales-merchant-portal-gui": "2.0.1",
         "spryker/sales-order-threshold": "1.7.2",
         "spryker/sales-order-thresholds-rest-api": "^1.0.0",
         "spryker/sales-payment": "1.3.0",

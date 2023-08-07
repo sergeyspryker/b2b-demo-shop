@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d676410655ec4a87bc626707d227847c",
+    "content-hash": "260b6d48bb83d564db4f53561cd3db96",
     "packages": [
         {
             "name": "async-aws/core",
@@ -48271,16 +48271,16 @@
         },
         {
             "name": "spryker/sales-merchant-portal-gui",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/sales-merchant-portal-gui.git",
-                "reference": "a5a158581c00c031f1bb9ca2b2b3e83d774483ee"
+                "reference": "265546ee7f45e458153e0488043604b6d0455cc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/sales-merchant-portal-gui/zipball/a5a158581c00c031f1bb9ca2b2b3e83d774483ee",
-                "reference": "a5a158581c00c031f1bb9ca2b2b3e83d774483ee",
+                "url": "https://api.github.com/repos/spryker/sales-merchant-portal-gui/zipball/265546ee7f45e458153e0488043604b6d0455cc6",
+                "reference": "265546ee7f45e458153e0488043604b6d0455cc6",
                 "shasum": ""
             },
             "require": {
@@ -48330,9 +48330,9 @@
             ],
             "description": "SalesMerchantPortalGui module",
             "support": {
-                "source": "https://github.com/spryker/sales-merchant-portal-gui/tree/2.0.0"
+                "source": "https://github.com/spryker/sales-merchant-portal-gui/tree/2.0.1"
             },
-            "time": "2023-02-10T12:12:31+00:00"
+            "time": "2023-02-20T09:40:44+00:00"
         },
         {
             "name": "spryker/sales-merchant-portal-gui-extension",
