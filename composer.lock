@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "260b6d48bb83d564db4f53561cd3db96",
+    "content-hash": "5d2c18488a3b47a02dedbd0be8062258",
     "packages": [
         {
             "name": "async-aws/core",
@@ -19159,6 +19159,47 @@
                 "source": "https://github.com/spryker/catalog/tree/5.7.0"
             },
             "time": "2021-07-16T12:46:59+00:00"
+        },
+        {
+            "name": "spryker/catalog-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/catalog-extension.git",
+                "reference": "613a20224dc13f2d3a7ab268d40d81c73b109707"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/catalog-extension/zipball/613a20224dc13f2d3a7ab268d40d81c73b109707",
+                "reference": "613a20224dc13f2d3a7ab268d40d81c73b109707",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "CatalogExtension module",
+            "support": {
+                "source": "https://github.com/spryker/catalog-extension/tree/1.0.0"
+            },
+            "time": "2023-02-20T10:18:53+00:00"
         },
         {
             "name": "spryker/catalog-price-product-connector",
