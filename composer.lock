@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c944ecbb56b7b249f8254f67af295e71",
+    "content-hash": "eefe62b9cacfe4845ad05d1eb06c6b7e",
     "packages": [
         {
             "name": "async-aws/core",
@@ -8675,16 +8675,16 @@
         },
         {
             "name": "spryker-shop/cart-page",
-            "version": "3.35.1",
+            "version": "3.35.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/cart-page.git",
-                "reference": "fcbf6b5594db89da716a21dc8fbd68cafeda2c86"
+                "reference": "ae49c9e15fde9b9cf5fa2480eb34fe3492a71f9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/cart-page/zipball/fcbf6b5594db89da716a21dc8fbd68cafeda2c86",
-                "reference": "fcbf6b5594db89da716a21dc8fbd68cafeda2c86",
+                "url": "https://api.github.com/repos/spryker-shop/cart-page/zipball/ae49c9e15fde9b9cf5fa2480eb34fe3492a71f9b",
+                "reference": "ae49c9e15fde9b9cf5fa2480eb34fe3492a71f9b",
                 "shasum": ""
             },
             "require": {
@@ -8761,9 +8761,9 @@
             ],
             "description": "CartPage module",
             "support": {
-                "source": "https://github.com/spryker-shop/cart-page/tree/3.35.1"
+                "source": "https://github.com/spryker-shop/cart-page/tree/3.35.2"
             },
-            "time": "2023-01-27T14:54:11+00:00"
+            "time": "2023-02-28T11:41:07+00:00"
         },
         {
             "name": "spryker-shop/cart-page-extension",
@@ -8808,16 +8808,16 @@
         },
         {
             "name": "spryker-shop/catalog-page",
-            "version": "1.24.0",
+            "version": "1.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/catalog-page.git",
-                "reference": "c65f7bb86437568b50767aad7b935b8dd6b935fa"
+                "reference": "be18c0f1ade6072fd6c3602afdc7ce8d66021ef8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/catalog-page/zipball/c65f7bb86437568b50767aad7b935b8dd6b935fa",
-                "reference": "c65f7bb86437568b50767aad7b935b8dd6b935fa",
+                "url": "https://api.github.com/repos/spryker-shop/catalog-page/zipball/be18c0f1ade6072fd6c3602afdc7ce8d66021ef8",
+                "reference": "be18c0f1ade6072fd6c3602afdc7ce8d66021ef8",
                 "shasum": ""
             },
             "require": {
@@ -8873,9 +8873,9 @@
             ],
             "description": "CatalogPage module",
             "support": {
-                "source": "https://github.com/spryker-shop/catalog-page/tree/1.24.0"
+                "source": "https://github.com/spryker-shop/catalog-page/tree/1.24.1"
             },
-            "time": "2022-11-24T12:58:31+00:00"
+            "time": "2023-02-28T11:41:07+00:00"
         },
         {
             "name": "spryker-shop/category-image-storage-widget",
@@ -10033,16 +10033,16 @@
         },
         {
             "name": "spryker-shop/configurable-bundle-widget",
-            "version": "1.7.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/configurable-bundle-widget.git",
-                "reference": "e275ea9ddd102923481263054fbb9ea7d5f36f18"
+                "reference": "853e13c527f6eb506e982cdd2abadabf44ede54f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/configurable-bundle-widget/zipball/e275ea9ddd102923481263054fbb9ea7d5f36f18",
-                "reference": "e275ea9ddd102923481263054fbb9ea7d5f36f18",
+                "url": "https://api.github.com/repos/spryker-shop/configurable-bundle-widget/zipball/853e13c527f6eb506e982cdd2abadabf44ede54f",
+                "reference": "853e13c527f6eb506e982cdd2abadabf44ede54f",
                 "shasum": ""
             },
             "require": {
@@ -10086,9 +10086,9 @@
             ],
             "description": "ConfigurableBundleWidget module",
             "support": {
-                "source": "https://github.com/spryker-shop/configurable-bundle-widget/tree/1.7.0"
+                "source": "https://github.com/spryker-shop/configurable-bundle-widget/tree/1.7.1"
             },
-            "time": "2022-11-24T12:58:31+00:00"
+            "time": "2023-02-28T11:41:07+00:00"
         },
         {
             "name": "spryker-shop/content-banner-widget",
@@ -13082,16 +13082,16 @@
         },
         {
             "name": "spryker-shop/product-measurement-unit-widget",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/product-measurement-unit-widget.git",
-                "reference": "23f80079936febb82eaa5e71b3232edd7f61223a"
+                "reference": "b20a15dba0a105787ae93eda25c747e47191aade"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/product-measurement-unit-widget/zipball/23f80079936febb82eaa5e71b3232edd7f61223a",
-                "reference": "23f80079936febb82eaa5e71b3232edd7f61223a",
+                "url": "https://api.github.com/repos/spryker-shop/product-measurement-unit-widget/zipball/b20a15dba0a105787ae93eda25c747e47191aade",
+                "reference": "b20a15dba0a105787ae93eda25c747e47191aade",
                 "shasum": ""
             },
             "require": {
@@ -13130,9 +13130,9 @@
             ],
             "description": "ProductMeasurementUnitWidget module",
             "support": {
-                "source": "https://github.com/spryker-shop/product-measurement-unit-widget/tree/1.1.0"
+                "source": "https://github.com/spryker-shop/product-measurement-unit-widget/tree/1.1.1"
             },
-            "time": "2022-11-24T12:58:31+00:00"
+            "time": "2023-02-28T11:41:07+00:00"
         },
         {
             "name": "spryker-shop/product-new-page",
@@ -13249,16 +13249,16 @@
         },
         {
             "name": "spryker-shop/product-packaging-unit-widget",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/product-packaging-unit-widget.git",
-                "reference": "a72e4bcf5ffac356162b80b4ebdb2779902177e6"
+                "reference": "a0bc110a6cd4182d29d4821e0938f90a434f705a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/product-packaging-unit-widget/zipball/a72e4bcf5ffac356162b80b4ebdb2779902177e6",
-                "reference": "a72e4bcf5ffac356162b80b4ebdb2779902177e6",
+                "url": "https://api.github.com/repos/spryker-shop/product-packaging-unit-widget/zipball/a0bc110a6cd4182d29d4821e0938f90a434f705a",
+                "reference": "a0bc110a6cd4182d29d4821e0938f90a434f705a",
                 "shasum": ""
             },
             "require": {
@@ -13304,9 +13304,9 @@
             ],
             "description": "ProductPackagingUnitWidget module",
             "support": {
-                "source": "https://github.com/spryker-shop/product-packaging-unit-widget/tree/1.4.0"
+                "source": "https://github.com/spryker-shop/product-packaging-unit-widget/tree/1.4.1"
             },
-            "time": "2022-12-12T09:07:04+00:00"
+            "time": "2023-02-28T11:41:07+00:00"
         },
         {
             "name": "spryker-shop/product-relation-widget",
@@ -15695,16 +15695,16 @@
         },
         {
             "name": "spryker-shop/shopping-list-page",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker-shop/shopping-list-page.git",
-                "reference": "0a093b15e49402f68c4a8d292378cb4a3ea7afc6"
+                "reference": "ea77bf6bfe523c99859d0f2cca4bc31e19eccb13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker-shop/shopping-list-page/zipball/0a093b15e49402f68c4a8d292378cb4a3ea7afc6",
-                "reference": "0a093b15e49402f68c4a8d292378cb4a3ea7afc6",
+                "url": "https://api.github.com/repos/spryker-shop/shopping-list-page/zipball/ea77bf6bfe523c99859d0f2cca4bc31e19eccb13",
+                "reference": "ea77bf6bfe523c99859d0f2cca4bc31e19eccb13",
                 "shasum": ""
             },
             "require": {
@@ -15758,9 +15758,9 @@
             ],
             "description": "ShoppingListPage module",
             "support": {
-                "source": "https://github.com/spryker-shop/shopping-list-page/tree/1.8.0"
+                "source": "https://github.com/spryker-shop/shopping-list-page/tree/1.8.1"
             },
-            "time": "2022-11-24T12:58:31+00:00"
+            "time": "2023-02-28T11:41:07+00:00"
         },
         {
             "name": "spryker-shop/shopping-list-page-extension",
@@ -37463,6 +37463,48 @@
             "time": "2019-05-30T12:29:48+00:00"
         },
         {
+            "name": "spryker/picking-list-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/picking-list-extension.git",
+                "reference": "30ce5441fe1824b5c410ef22ea3729a11136a726"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/picking-list-extension/zipball/30ce5441fe1824b5c410ef22ea3729a11136a726",
+                "reference": "30ce5441fe1824b5c410ef22ea3729a11136a726",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/transfer": "^3.27.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "PickingListExtension module",
+            "support": {
+                "source": "https://github.com/spryker/picking-list-extension/tree/1.0.0"
+            },
+            "time": "2023-03-24T14:46:01+00:00"
+        },
+        {
             "name": "spryker/price",
             "version": "5.7.0",
             "source": {
@@ -44337,29 +44379,30 @@
         },
         {
             "name": "spryker/product-packaging-unit",
-            "version": "4.6.0",
+            "version": "4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-packaging-unit.git",
-                "reference": "d4ba4ab861c7c70d07bc2a36c726b90fbdbd9a22"
+                "reference": "26a2f685d1ca377e1df568d23c26302007faa865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-packaging-unit/zipball/d4ba4ab861c7c70d07bc2a36c726b90fbdbd9a22",
-                "reference": "d4ba4ab861c7c70d07bc2a36c726b90fbdbd9a22",
+                "url": "https://api.github.com/repos/spryker/product-packaging-unit/zipball/26a2f685d1ca377e1df568d23c26302007faa865",
+                "reference": "26a2f685d1ca377e1df568d23c26302007faa865",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3",
+                "php": ">=8.0",
                 "spryker/availability": "^9.0.0",
                 "spryker/cart-extension": "^2.0.0 || ^4.0.0",
                 "spryker/decimal-object": "^1.0.0",
                 "spryker/glossary": "^3.1.0",
                 "spryker/kernel": "^3.30.0",
-                "spryker/locale": "^3.0.0",
+                "spryker/locale": "^3.0.0 || ^4.0.0",
                 "spryker/oms": "^11.0.0",
                 "spryker/oms-extension": "^1.2.0",
                 "spryker/persistent-cart-extension": "^1.0.0",
+                "spryker/picking-list-extension": "^1.0.0",
                 "spryker/product": "^6.0.0",
                 "spryker/product-measurement-unit": "^2.0.0 || ^4.0.0 || ^5.0.0",
                 "spryker/product-page-search-extension": "^1.3.0",
@@ -44368,13 +44411,14 @@
                 "spryker/sales-extension": "^1.6.0",
                 "spryker/sales-quantity": "^1.0.0 || ^3.0.0",
                 "spryker/store": "^1.4.0",
-                "spryker/transfer": "^3.18.0",
+                "spryker/transfer": "^3.27.0",
                 "spryker/util-text": "^1.0.0"
             },
             "require-dev": {
                 "spryker/cart": "*",
                 "spryker/checkout": "*",
                 "spryker/code-sniffer": "*",
+                "spryker/container": "*",
                 "spryker/customer": "*",
                 "spryker/installer": "*",
                 "spryker/propel": "*",
@@ -44406,9 +44450,9 @@
             ],
             "description": "ProductPackagingUnit module",
             "support": {
-                "source": "https://github.com/spryker/product-packaging-unit/tree/4.6.0"
+                "source": "https://github.com/spryker/product-packaging-unit/tree/4.8.0"
             },
-            "time": "2021-06-11T11:40:53+00:00"
+            "time": "2023-04-17T15:49:27+00:00"
         },
         {
             "name": "spryker/product-packaging-unit-data-import",
@@ -44462,20 +44506,20 @@
         },
         {
             "name": "spryker/product-packaging-unit-storage",
-            "version": "5.2.0",
+            "version": "5.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-packaging-unit-storage.git",
-                "reference": "2d6504cad208f8fd8604a72fb4a7e476a6b2e698"
+                "reference": "84c39dc66b0dc0c99b01b0e18fb8b15ac8f4d512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-packaging-unit-storage/zipball/2d6504cad208f8fd8604a72fb4a7e476a6b2e698",
-                "reference": "2d6504cad208f8fd8604a72fb4a7e476a6b2e698",
+                "url": "https://api.github.com/repos/spryker/product-packaging-unit-storage/zipball/84c39dc66b0dc0c99b01b0e18fb8b15ac8f4d512",
+                "reference": "84c39dc66b0dc0c99b01b0e18fb8b15ac8f4d512",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2",
+                "php": ">=8.0",
                 "spryker/decimal-object": "^1.0.0",
                 "spryker/event-behavior": "^1.0.0",
                 "spryker/kernel": "^3.37.0",
@@ -44492,6 +44536,7 @@
                 "spryker/code-sniffer": "*",
                 "spryker/event": "*",
                 "spryker/propel": "*",
+                "spryker/publisher": "*",
                 "spryker/queue": "*",
                 "spryker/testify": "*"
             },
@@ -44516,9 +44561,9 @@
             ],
             "description": "ProductPackagingUnitStorage module",
             "support": {
-                "source": "https://github.com/spryker/product-packaging-unit-storage/tree/master"
+                "source": "https://github.com/spryker/product-packaging-unit-storage/tree/5.2.1"
             },
-            "time": "2020-08-20T12:38:58+00:00"
+            "time": "2023-03-31T19:36:11+00:00"
         },
         {
             "name": "spryker/product-page-search",
