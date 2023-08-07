@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37755a39924f4a68c4b4054b3bf72515",
+    "content-hash": "69b9b377ea17c3cce59d29a194282469",
     "packages": [
         {
             "name": "async-aws/core",
@@ -31183,6 +31183,47 @@
             "time": "2023-02-14T15:02:34+00:00"
         },
         {
+            "name": "spryker/glue-backend-api-application-authorization-connector-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/glue-backend-api-application-authorization-connector-extension.git",
+                "reference": "0e60a1ad5d5e17fa1bc859b0113738a71d00c323"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/glue-backend-api-application-authorization-connector-extension/zipball/0e60a1ad5d5e17fa1bc859b0113738a71d00c323",
+                "reference": "0e60a1ad5d5e17fa1bc859b0113738a71d00c323",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "GlueBackendApiApplicationAuthorizationConnectorExtension module",
+            "support": {
+                "source": "https://github.com/spryker/glue-backend-api-application-authorization-connector-extension/tree/1.0.0"
+            },
+            "time": "2023-03-16T13:08:01+00:00"
+        },
+        {
             "name": "spryker/glue-json-api-convention",
             "version": "1.0.0",
             "source": {
@@ -36121,6 +36162,47 @@
                 "source": "https://github.com/spryker/oauth-auth0/tree/1.0.0"
             },
             "time": "2022-04-26T12:27:56+00:00"
+        },
+        {
+            "name": "spryker/oauth-backend-api-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/oauth-backend-api-extension.git",
+                "reference": "145540f0f52a6af36f246769af00b7589b7c1235"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/oauth-backend-api-extension/zipball/145540f0f52a6af36f246769af00b7589b7c1235",
+                "reference": "145540f0f52a6af36f246769af00b7589b7c1235",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "OauthBackendApiExtension module",
+            "support": {
+                "source": "https://github.com/spryker/oauth-backend-api-extension/tree/1.0.0"
+            },
+            "time": "2023-03-16T13:08:01+00:00"
         },
         {
             "name": "spryker/oauth-client",
