@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3fcc138863dfcc451a5c5e6d5d49b38",
+    "content-hash": "86e0d3c7138c88ed8831db274c45e52c",
     "packages": [
         {
             "name": "async-aws/core",
@@ -27901,6 +27901,64 @@
                 "source": "https://github.com/spryker/customer-note-gui/tree/1.2.1"
             },
             "time": "2023-01-30T13:41:02+00:00"
+        },
+        {
+            "name": "spryker/customer-storage",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/customer-storage.git",
+                "reference": "abd0f1f6d6d2c9f53bb402bec10e9b39184b11ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/customer-storage/zipball/abd0f1f6d6d2c9f53bb402bec10e9b39184b11ba",
+                "reference": "abd0f1f6d6d2c9f53bb402bec10e9b39184b11ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/customer": "^7.49.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/propel-orm": "^1.5.0",
+                "spryker/publisher-extension": "^1.0.0",
+                "spryker/storage": "^3.7.1",
+                "spryker/symfony": "^3.0.0",
+                "spryker/synchronization": "^1.9.0",
+                "spryker/synchronization-behavior": "^1.0.0",
+                "spryker/synchronization-extension": "^1.1.0",
+                "spryker/transfer": "^3.27.0",
+                "spryker/util-encoding": "^2.0.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/propel": "*",
+                "spryker/queue": "*",
+                "spryker/testify": "*"
+            },
+            "suggest": {
+                "spryker/event": "If you want to use Event plugins, minimum required version: 2.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "CustomerStorage module",
+            "support": {
+                "source": "https://github.com/spryker/customer-storage/tree/1.0.0"
+            },
+            "time": "2023-02-08T18:31:45+00:00"
         },
         {
             "name": "spryker/customer-user-connector",
