@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d17f5496d177efb525e05c89d8166361",
+    "content-hash": "ac6e6a55d4cacb4783aa5c62aac369d3",
     "packages": [
         {
             "name": "async-aws/core",
@@ -19319,20 +19319,20 @@
         },
         {
             "name": "spryker/categories-rest-api",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/categories-rest-api.git",
-                "reference": "b7ed90f7620922ebeb2f2171f921a42c817d8b6d"
+                "reference": "71ad82a77417b1efd78e72b3be8ce30690816d42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/categories-rest-api/zipball/b7ed90f7620922ebeb2f2171f921a42c817d8b6d",
-                "reference": "b7ed90f7620922ebeb2f2171f921a42c817d8b6d",
+                "url": "https://api.github.com/repos/spryker/categories-rest-api/zipball/71ad82a77417b1efd78e72b3be8ce30690816d42",
+                "reference": "71ad82a77417b1efd78e72b3be8ce30690816d42",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4",
+                "php": ">=8.0",
                 "spryker/category-storage": "^1.11.0 || ^2.0.0",
                 "spryker/glue-application": "^1.0.0",
                 "spryker/glue-application-extension": "^1.0.0",
@@ -19344,7 +19344,11 @@
             },
             "require-dev": {
                 "spryker/code-sniffer": "*",
+                "spryker/container": "*",
                 "spryker/testify": "*"
+            },
+            "suggest": {
+                "spryker/container": "Add this module to use the ContainerInterface."
             },
             "type": "library",
             "extra": {
@@ -19363,9 +19367,9 @@
             ],
             "description": "CategoriesRestApi module",
             "support": {
-                "source": "https://github.com/spryker/categories-rest-api/tree/1.6.0"
+                "source": "https://github.com/spryker/categories-rest-api/tree/1.7.0"
             },
-            "time": "2021-12-02T12:25:13+00:00"
+            "time": "2023-02-09T09:04:01+00:00"
         },
         {
             "name": "spryker/category",
@@ -20032,16 +20036,16 @@
         },
         {
             "name": "spryker/category-storage",
-            "version": "2.4.1",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/category-storage.git",
-                "reference": "abce118985b5d267ac195bbf84eda749999e7b14"
+                "reference": "150bdb7bc3a8f0c8ac7fc76d9f75ec4c9fd24e48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/category-storage/zipball/abce118985b5d267ac195bbf84eda749999e7b14",
-                "reference": "abce118985b5d267ac195bbf84eda749999e7b14",
+                "url": "https://api.github.com/repos/spryker/category-storage/zipball/150bdb7bc3a8f0c8ac7fc76d9f75ec4c9fd24e48",
+                "reference": "150bdb7bc3a8f0c8ac7fc76d9f75ec4c9fd24e48",
                 "shasum": ""
             },
             "require": {
@@ -20049,24 +20053,28 @@
                 "spryker/category": "^5.6.0",
                 "spryker/event-behavior": "^1.6.0",
                 "spryker/kernel": "^3.30.0",
-                "spryker/locale": "^3.1.0",
+                "spryker/locale": "^3.1.0 || ^4.0.0",
+                "spryker/product-category-storage-extension": "^1.0.0",
                 "spryker/propel-orm": "^1.5.0",
                 "spryker/publisher-extension": "^1.0.0",
+                "spryker/search-extension": "^1.0.0",
                 "spryker/storage": "^3.4.0",
-                "spryker/store": "^1.15.0",
+                "spryker/store": "^1.19.0",
                 "spryker/synchronization": "^1.9.0",
                 "spryker/synchronization-behavior": "^1.0.0",
                 "spryker/synchronization-extension": "^1.1.0",
-                "spryker/transfer": "^3.25.0",
+                "spryker/transfer": "^3.27.0",
                 "spryker/util-sanitize": "^2.1.0"
             },
             "require-dev": {
                 "spryker/code-sniffer": "*",
+                "spryker/container": "*",
                 "spryker/elastica": "*",
                 "spryker/event": "*",
                 "spryker/propel": "*",
                 "spryker/queue": "*",
                 "spryker/search-elasticsearch": "*",
+                "spryker/store-extension": "*",
                 "spryker/testify": "*",
                 "spryker/url-storage": "*"
             },
@@ -20074,6 +20082,7 @@
                 "spryker/elastica": "If you want to use Elastica plugins.",
                 "spryker/event": "If you want to use Event plugins, minimum required version: 2.1.0",
                 "spryker/search-elasticsearch": "If you want to use search plugins.",
+                "spryker/search-http": "If you want to use SearchHttp plugins.",
                 "spryker/url-storage": "If you want to use UrlStorage plugins, minimum required version: 0.2.0"
             },
             "type": "library",
@@ -20093,9 +20102,9 @@
             ],
             "description": "CategoryStorage module",
             "support": {
-                "source": "https://github.com/spryker/category-storage/tree/2.4.1"
+                "source": "https://github.com/spryker/category-storage/tree/2.7.1"
             },
-            "time": "2022-11-15T11:10:10+00:00"
+            "time": "2023-06-07T12:29:41+00:00"
         },
         {
             "name": "spryker/chart",
@@ -28565,16 +28574,16 @@
         },
         {
             "name": "spryker/development",
-            "version": "3.34.2",
+            "version": "3.34.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/development.git",
-                "reference": "1625e93110e48bf381d84c27ff1dc9389316ecb3"
+                "reference": "bac6d28f395270607754def70a3a2e2360728730"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/development/zipball/1625e93110e48bf381d84c27ff1dc9389316ecb3",
-                "reference": "1625e93110e48bf381d84c27ff1dc9389316ecb3",
+                "url": "https://api.github.com/repos/spryker/development/zipball/bac6d28f395270607754def70a3a2e2360728730",
+                "reference": "bac6d28f395270607754def70a3a2e2360728730",
                 "shasum": ""
             },
             "require": {
@@ -28615,9 +28624,9 @@
             ],
             "description": "Development module",
             "support": {
-                "source": "https://github.com/spryker/development/tree/3.34.2"
+                "source": "https://github.com/spryker/development/tree/3.34.3"
             },
-            "time": "2022-12-23T11:50:03+00:00"
+            "time": "2023-02-09T12:28:48+00:00"
         },
         {
             "name": "spryker/discount",
@@ -40018,6 +40027,48 @@
                 "source": "https://github.com/spryker/product-category-storage/tree/2.4.1"
             },
             "time": "2022-06-14T11:22:27+00:00"
+        },
+        {
+            "name": "spryker/product-category-storage-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/product-category-storage-extension.git",
+                "reference": "913773ac32cdb91dd8b4dd176bb3322fde171696"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/product-category-storage-extension/zipball/913773ac32cdb91dd8b4dd176bb3322fde171696",
+                "reference": "913773ac32cdb91dd8b4dd176bb3322fde171696",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/transfer": "^3.27.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "ProductCategoryStorageExtension module",
+            "support": {
+                "source": "https://github.com/spryker/product-category-storage-extension/tree/1.0.0"
+            },
+            "time": "2023-04-20T13:53:42+00:00"
         },
         {
             "name": "spryker/product-configuration",
