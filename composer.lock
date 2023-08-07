@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86e0d3c7138c88ed8831db274c45e52c",
+    "content-hash": "87a326853ed67b9278897bbdc67cfc30",
     "packages": [
         {
             "name": "async-aws/core",
@@ -10660,6 +10660,57 @@
                 "source": "https://github.com/spryker-shop/customer-reorder-widget-extension/tree/1.3.0"
             },
             "time": "2022-06-21T15:12:58+00:00"
+        },
+        {
+            "name": "spryker-shop/customer-validation-page",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker-shop/customer-validation-page.git",
+                "reference": "1e61281f63d10d8e5e4b88a043207da58d4b904e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker-shop/customer-validation-page/zipball/1e61281f63d10d8e5e4b88a043207da58d4b904e",
+                "reference": "1e61281f63d10d8e5e4b88a043207da58d4b904e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker-shop/shop-application-extension": "^1.1.0",
+                "spryker/customer": "^7.48.0",
+                "spryker/customer-storage": "^1.0.0",
+                "spryker/kernel": "^3.52.0",
+                "spryker/session": "^4.0.0",
+                "spryker/symfony": "^3.1.0",
+                "spryker/transfer": "^3.27.0"
+            },
+            "require-dev": {
+                "spryker/application": "*",
+                "spryker/code-sniffer": "*",
+                "spryker/container": "*",
+                "spryker/testify": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SprykerShop\\": "src/SprykerShop/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "CustomerValidationPage module",
+            "support": {
+                "source": "https://github.com/spryker-shop/customer-validation-page/tree/1.0.0"
+            },
+            "time": "2023-02-08T18:31:48+00:00"
         },
         {
             "name": "spryker-shop/date-time-configurator-page-example",
@@ -35203,16 +35254,16 @@
         },
         {
             "name": "spryker/oauth",
-            "version": "2.7.3",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/oauth.git",
-                "reference": "62bd8ea6684c9dbc67f2f54658d213cdd066f4e2"
+                "reference": "b8a7535238e1daa0a654282d89bb5b4491cd1b82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/oauth/zipball/62bd8ea6684c9dbc67f2f54658d213cdd066f4e2",
-                "reference": "62bd8ea6684c9dbc67f2f54658d213cdd066f4e2",
+                "url": "https://api.github.com/repos/spryker/oauth/zipball/b8a7535238e1daa0a654282d89bb5b4491cd1b82",
+                "reference": "b8a7535238e1daa0a654282d89bb5b4491cd1b82",
                 "shasum": ""
             },
             "require": {
@@ -35222,10 +35273,10 @@
                 "spryker/config": "^3.0.0",
                 "spryker/guzzle": "^2.0.0",
                 "spryker/kernel": "^3.30.0",
-                "spryker/oauth-extension": "^1.7.0",
+                "spryker/oauth-extension": "^1.8.0",
                 "spryker/propel-orm": "^1.0.0",
                 "spryker/symfony": "^3.0.0",
-                "spryker/transfer": "^3.25.0",
+                "spryker/transfer": "^3.27.0",
                 "spryker/util-encoding": "^2.0.0",
                 "spryker/zed-request": "^3.0.0"
             },
@@ -35259,9 +35310,9 @@
             ],
             "description": "Oauth module",
             "support": {
-                "source": "https://github.com/spryker/oauth/tree/2.7.3"
+                "source": "https://github.com/spryker/oauth/tree/2.8.0"
             },
-            "time": "2022-12-29T12:04:01+00:00"
+            "time": "2023-02-08T18:31:45+00:00"
         },
         {
             "name": "spryker/oauth-agent-connector",
@@ -35746,6 +35797,54 @@
                 "source": "https://github.com/spryker/oauth-customer-connector-extension/tree/master"
             },
             "time": "2018-12-29T09:45:16+00:00"
+        },
+        {
+            "name": "spryker/oauth-customer-validation",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/oauth-customer-validation.git",
+                "reference": "386e91d7b5edc6e64696e8be92295bc2aa074e68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/oauth-customer-validation/zipball/386e91d7b5edc6e64696e8be92295bc2aa074e68",
+                "reference": "386e91d7b5edc6e64696e8be92295bc2aa074e68",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/customer-storage": "^1.0.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/oauth": "^2.8.0",
+                "spryker/oauth-extension": "^1.8.0",
+                "spryker/transfer": "^3.27.0",
+                "spryker/util-encoding": "^2.0.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/testify": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "OauthCustomerValidation module",
+            "support": {
+                "source": "https://github.com/spryker/oauth-customer-validation/tree/1.0.0"
+            },
+            "time": "2023-02-08T18:31:45+00:00"
         },
         {
             "name": "spryker/oauth-dummy",
