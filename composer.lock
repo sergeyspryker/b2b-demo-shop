@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e9170b4a6b6052a4f17b9b9c9adc105",
+    "content-hash": "a0262a6a6c28b1c9642c1ccc3c18e3bf",
     "packages": [
         {
             "name": "async-aws/core",
@@ -53998,6 +53998,56 @@
                 "source": "https://github.com/spryker/user-password-reset-mail/tree/1.1.0"
             },
             "time": "2022-11-11T13:29:11+00:00"
+        },
+        {
+            "name": "spryker/users-backend-api",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spryker/users-backend-api.git",
+                "reference": "fc972a9331cd36982d45b41bfd59a232959dfb32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spryker/users-backend-api/zipball/fc972a9331cd36982d45b41bfd59a232959dfb32",
+                "reference": "fc972a9331cd36982d45b41bfd59a232959dfb32",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0",
+                "spryker/glue-json-api-convention-extension": "^1.0.0",
+                "spryker/kernel": "^3.30.0",
+                "spryker/transfer": "^3.27.0",
+                "spryker/user": "^3.16.0",
+                "spryker/uuid-behavior": "^1.0.0"
+            },
+            "require-dev": {
+                "spryker/code-sniffer": "*",
+                "spryker/propel": "*",
+                "spryker/stock": "*",
+                "spryker/testify": "*",
+                "spryker/warehouse-user": "*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spryker\\": "src/Spryker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "description": "UsersBackendApi module",
+            "support": {
+                "source": "https://github.com/spryker/users-backend-api/tree/1.0.0"
+            },
+            "time": "2023-02-08T12:23:08+00:00"
         },
         {
             "name": "spryker/util-csv",

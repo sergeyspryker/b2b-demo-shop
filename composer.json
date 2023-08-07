@@ -341,6 +341,7 @@
         "spryker/tax-storage": "1.4.0",
         "spryker/up-selling-products-rest-api": "^1.2.2",
         "spryker/urls-rest-api": "^1.0.2",
+        "spryker/users-backend-api": "1.0.0",
         "spryker/util-number": "^1.0.0",
         "spryker/uuid": "^1.0.1",
         "spryker/wishlist": "8.7.1"
