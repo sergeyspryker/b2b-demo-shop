@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b213c92a27bbfa6095712c95e68d05e",
+    "content-hash": "27d8aa7ccc2a07ff0ff2444258b419c9",
     "packages": [
         {
             "name": "async-aws/core",
@@ -42601,16 +42601,16 @@
         },
         {
             "name": "spryker/product-discontinued-storage",
-            "version": "1.15.0",
+            "version": "1.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/product-discontinued-storage.git",
-                "reference": "d1dc994b785c507aee0ebb318ad8b176c23c68ab"
+                "reference": "a48a725cef0094a719eab1204e87a436f4d4ead9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/product-discontinued-storage/zipball/d1dc994b785c507aee0ebb318ad8b176c23c68ab",
-                "reference": "d1dc994b785c507aee0ebb318ad8b176c23c68ab",
+                "url": "https://api.github.com/repos/spryker/product-discontinued-storage/zipball/a48a725cef0094a719eab1204e87a436f4d4ead9",
+                "reference": "a48a725cef0094a719eab1204e87a436f4d4ead9",
                 "shasum": ""
             },
             "require": {
@@ -42659,9 +42659,9 @@
             ],
             "description": "ProductDiscontinuedStorage module",
             "support": {
-                "source": "https://github.com/spryker/product-discontinued-storage/tree/1.15.0"
+                "source": "https://github.com/spryker/product-discontinued-storage/tree/1.15.1"
             },
-            "time": "2023-03-14T10:53:17+00:00"
+            "time": "2023-03-28T09:03:33+00:00"
         },
         {
             "name": "spryker/product-discount-connector",
